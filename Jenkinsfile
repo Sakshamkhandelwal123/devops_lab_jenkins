@@ -9,7 +9,7 @@ pipeline{
    stage('Build'){
    steps{
    echo 'Building jar files...'
-     sh 'python test.py'
+     sh 'python3 test.py'
    }
   }
  }
